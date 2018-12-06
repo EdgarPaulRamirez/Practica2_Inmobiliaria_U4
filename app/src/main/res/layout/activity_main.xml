@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="INMOBILIARIA RAMIREZ"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="¡BIENVENIDO!"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="350dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Propietario"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="#08088A"
+            android:layout_gravity="center"
+            android:layout_marginLeft="90dp"
+            android:id="@+id/botonPropietario"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="inmueble"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="#08088A"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/botonInmueble"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

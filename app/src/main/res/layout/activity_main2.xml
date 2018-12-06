@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/inmueble"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="INMUEBLE"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        />
+
+
+    <EditText
+        android:id="@+id/IDInmueble"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="ID INMUEBLE"
+        android:background="#ffff"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="130dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/domicilioInmueble"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:background="#ffff"
+        android:ems="10"
+        android:hint="Domicilio"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/precioVentaInmueble"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:background="#ffff"
+        android:hint="Precio Venta"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/precioRentaInmueble"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:background="#ffff"
+        android:hint="Precio renta"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/fechaTransaccionInmueble"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#ffff"
+        android:ems="10"
+        android:hint="AAAA/MM/DD (Fecha de transaccion)"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/idpInmueble"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#ffff"
+        android:ems="10"
+        android:hint="id propietario" />
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:textStyle="bold"
+            android:id="@+id/insertarInmueble"
+            android:background="@drawable/insertarimagen"
+            android:layout_marginLeft="5dp"
+            />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/consultarimagen"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/consultarInmueble"
+            />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/borrarimagen"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/eliminarInmueble"
+            />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/actualizarimagen"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/actualizarInmueble"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
